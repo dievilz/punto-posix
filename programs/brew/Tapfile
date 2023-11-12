@@ -1,0 +1,14 @@
+tap "homebrew/core"
+tap "homebrew/bundle"
+tap "homebrew/services"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/cask-fonts"
+
+tap "str4d.xyz/rage", "https://str4d.xyz/rage"
+tap "heroku/brew"
+tap "d12frosted/emacs-plus"
+tap "jakehilborn/jakehilborn"
+
+brew "mas"
+brew "svn"

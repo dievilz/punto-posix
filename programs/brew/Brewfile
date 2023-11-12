@@ -1,0 +1,178 @@
+# pkgin wget,,"transfers files with URL syntax. <curl> is better."
+# pkgin wdiff,,"display word differences between text files."
+# pkgin readline,,"a library that can recall and edit previous input."
+# pkgin binutils,,"GNU binary utilities."
+# pkgin coreutils,,"GNU File, Shell and Text utilities."
+# pkgin diffutils,,"GNU diff utilities - find the differences between files."
+# pkgin ed,,"a line-oriented text editor, GNU rewrite."
+# pkgin findutils,,"GNU find, locate, updatedb, & xargs."
+# pkgin moreutils,,"additional UNIX tools."
+# pkgin gawk,,"a pattern-directed scanning and processing language."
+# pkgin getopt,,"parse command-line arguments from shell scripts."
+# pkgin gindent,,"a pretty-printer for C source code."
+# pkgin gsed,,"a stream editor."
+# pkgin gtar,,"a tape archiver."
+# pkgin gwhich,,"find which command (or alias or shell function) is executed when used."
+# pkgin grep,,"prints lines that contain a match for a pattern."
+# pkgin gzip,,"compress or expand files."
+# pkgin patch,,"apply diffs to files."
+# pkgin less,,"a pager similar to more and pg."
+# pkgin bison,,"a general-purpose parser generator."
+# pkgin gnutls,,"GNU Transport Layer Security (TLS) Library."
+# pkgin flex,,"a fast lexical analyser generator."
+# pkgin opendoas,,"execute commands as another user."
+# pkgin nvi,,"Berkeley nvi with additional features."
+
+# pkgin screen,,"multi-screen window manager."
+# pkgin autoconf,,"automatically configures software for compilation."
+# pkgin autoconf-archive,,"collection of macros for GNU autoconf."
+# pkgin automake,,"a utility for generating Makefile.in files."
+# pkgin gmake,,"controls the generation of executables and other non-source files."
+# pkgin build-essential,,"meta-package for essential build utilities."
+
+
+
+# port realpath,,"."
+
+
+
+################################################################################
+## ESSENTIAL PROGRAMS
+
+brew "bash"         # [Quick!] - Bourne-again shell
+brew "dash"         # [Quick!] - Debian-Almiquist shell
+brew "posh"         # [Quick!] - Policy-compliant Ordinary shell
+brew "zsh"          # [Medium!]- Z shell
+
+brew "gnupg"        # [¡Slow!] - <pgp> implementation from GNU
+brew "pinentry-mac" # gui interface to input GPG passphrases
+
+## After gnupg, I can install pkgin...
+
+brew "git"
+brew "git-flow-avh" # flow for a structured commit history
+
+brew "trash"        # trashcan utility from FreeDesktop.org
+brew "curl"         # transfer files with URL syntax. Better than <wget>
+
+brew "tree"         # (C)  da tree viewer
+brew "nvim"         # <vim> for soydevs :soyjak-wow:
+
+brew "tmux"         # <screen>    (C)    superior alternative [based]
+
+brew "ack"          # <grep> (Perl) alternative, optimized for source code [cringe]
+brew "the_silver_searcher"
+                    # <grep> (C)    alternative, faster than <ack>    [based]
+
+brew "signify-osx"  # an inferior (BSD) tool for signatures, <minisign> is better
+brew "minisign"     # dead simple tool for signatures, preferred over <ssh>
+
+brew "lf"           # (Go) TUI file explorer [based]
+brew "p7zip"        # an archive format to compress files with AES encryption
+brew "gopass"       # <pass>      (Go)   alternative [based]
+
+
+
+################################################################################
+## SECONDARY PROGRAMS
+
+brew "checkbashisms"    # analizer for bashisms
+brew "bash-completion"
+
+brew "fzf"              # (Go) text filter [based]
+brew "nq"               # (C) queue utility [based]
+brew "pv"               # (C) pipe viewer [based]
+# brew "watch"          # (C) execute a program periodically, showing output fullscreen [based]
+
+# brew "dievilz/dcfldd" # <GNU dd>    (C)    superior alternative [based]
+# brew "htop"           # <top>       (C)    alternative [based]
+
+# brew "micro"          # <nano> "smaller" (Go) alternative [based]
+brew "d12frosted/emacs-plus/emacs-plus", args: ["without-cocoa"] # <vi/vim>'s still better
+
+
+# brew "rdfind"   # <find> (C++)  alternative for duplicates [cringe]
+brew "stow"       # symlink farm manager (symlinks are evil btw)
+brew "ffmpeg"     # can record and splice video and audio on the command line
+brew "rename"     # (Perl) tool to make renaming easier? dunno anymore
+brew "zbar"       # scan bar codes from various sources
+
+
+brew "age"        # (Go) a modern encryption tool [based]
+brew "paperkey"   # print your GPG keys
+
+brew "neofetch"
+brew "pfetch"
+brew "shpotify"
+brew "yt-dlp"
+brew "fortune"
+brew "cowsay"
+brew "lolcat"
+
+brew "git-delta"
+brew "git-ftp"
+brew "git-lfs"
+brew "git-filter-repo"
+brew "git-credential-manager" # Microsoft's alternative for keyrings
+brew "blg"                    # remove blobs from git history like git filter-repo
+brew "icdiff"
+cask "ksdiff"
+
+
+brew "libyaml"
+brew "libheif"
+
+
+brew "nginx", restart_service: true          # <httpd> alternative
+brew "dnscrypt-proxy", restart_service: true # DNS tool
+brew "dnsmasq", restart_service: true        # DNS tool 2
+brew "privoxy", restart_service: true        # Proxy tool
+
+brew "mackup"       # backup macOS settings and configurations
+brew "duti"         # manage macOS default file handlers
+brew "jakehilborn/jakehilborn/displayplacer"
+
+
+
+################################################################################
+## NOT VERY IMPORTANT PROGRAMS
+
+brew "nnn"          # (C)    TUI file explorer [based]
+brew "cloc"         # (Perl) count lines of {source code, comments, etc} [actually good]
+brew "fetch"
+# brew "pstree"     # (C)    tree viewer for <ps> pipes
+
+
+
+################################################################################
+## SLOW TO COMPILE DEPENDENCIES PROGRAMS
+
+# brew "bat"        # [ Slow!] - <cat>       (Rust) alternative, with built-in coloring (cringe but works)
+# brew "fd"         # [ Slow!] - <find>      (Rust) alternative [cringe]
+# brew "exa"        # [ Slow!] - <ls>/<tree> (Rust) alternative [cringe]
+# brew "hwatch"     # [ Slow!] - <watch>     (Rust) execute a program periodically, showing output fullscreen [cringe]
+
+brew "rsync"        # [ Slow!] - (C) file transfer utility -(r)emote (sync)ing, also syncs locally [based]
+brew "shellcheck"   # [ Slow!] - (Python) analizer for shellscript language
+brew "gpg-tui"      # [ Slow!] - (Rust) manage your GPG keys with ease [cringe but works]
+brew "vivid"        # [ Slow!] - (Rust) linux LS_COLORS for macOS [cringe but works]
+brew "ripgrep"      # [ Slow!] - <grep> (Rust) alternative, the best of the best [ok I guess]
+brew "cmt"          # [ Slow!] - (Haskell) write consistent git commit messages based on a custom template [based]
+brew "rage"         # [ Slow!] - (Rust) a modern encryption tool [cringe]
+
+# brew "syntect"    # [ Slow!] - (Rust) sy-hi library with Sublime/TextMate sy-definitions :soydev-wow: [cringe]
+# brew "tree-sitter"# [ Slow!] - (Rust) builds and updates syntax trees for syntax hiliting :soydev-wow: [cringe]
+# brew "broot"      # [ Slow!] - (Rust) TUI file explorer/tree viewer [laggy]
+# brew "as-tree"    # [ Slow!] - (Rust) tree viewer for <find> pipes
+
+
+
+################################################################################
+
+# brew "composer"   # install via asdf
+# brew "phpmyadmin" # install via asdf
+
+# brew "ranger"     # prefer <lf> | (Python) TUI file explorer [cringe]
+# brew "xplr"       # prefer <lf> | (Rust)   TUI file explorer (slow)
+# brew "openssh"    # prefer local ssh
+# brew "heroku/brew/heroku"

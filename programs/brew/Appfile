@@ -1,0 +1,217 @@
+
+############################### GUI APPS ###############################
+
+######################## 1RA PAGINA: Core Apps #########################
+#/// ------------------ Safari Extensions Folder -----------------------
+## Agrupar <Safari> y extensiones de Safari (macOS 11) en "/Safari"
+
+#/// ---------------------- Old iLife Suite ----------------------------
+## Despues de <Photo Booth>, hacer carpeta "/iLife" y agrupar ahí:
+mas "iMovie", id: 408981434 #
+# mas "iPhotos", id:                    # Replaced by Photos
+# mas "Garage Band", id:                # Not anymore :(
+
+#/// --------------------------- Other ---------------------------------
+## Mover desde <QuickTime Player> (<TextEdit>,<TimeMachine>,<FontBook>,
+## <Chess>,<Stickies>,<ImageCapture>) hasta <Automator>/<DVD Player> a
+## "/Other" y poner antes de <Grapher>. Al finalizar, renombrar a
+## "/Utilities" si tienes ganas xd.
+
+#/// -------------------- FINAL DE 1RA PAGINA --------------------------
+## Despues de <Voice Memos> o "/Utilities (Other)", poner
+
+#/// --------- iOffice Suite ---------------
+mas "Pages", id: 409201541
+mas "Numbers", id: 409203825
+mas "Keynote", id: 409183694
+
+#/// ------------- iPro --------------------
+# mas "Final Cut Pro", id: 424389933                                   # ($)
+# mas "Compressor", id: 424390742
+# mas "Logic Pro", id: 634148309
+# mas "Motion", id: 434290957
+
+#/// ----------- Utilities -----------------
+## En caso de no tener disponible iOffice, utilizar:
+# mac "QuickTime Player"
+# mac "FontBook"
+# mac "Activity Monitor"
+# mac "Disk Utility"
+
+## Al final de la 1ra Pagina siempre poner el instalador
+## de macOS >=11 si es que esta disponible
+
+
+
+######################## 2DA PAGINA: Main Apps #########################
+#/// --------------------- Background-Only Apps ------------------------
+#/// -------------------- semi-GUI  --------------------------
+# mas "Memory Clean 2", id:                             # Memory manager (✔)
+mas "Magnet", id: 441258766                             # Window manager (✔)
+# cask "catchmouse"                          # Switch screens with mouse
+cask "captin"                                       # Caps Lock notifier
+cask "keepingyouawake"                               # Caffeine-like app
+# cask "MediaInfo" # github.com/sbarex/MediaInfo,      # Metadata viewer
+# cask "vanilla"                                # Menubar unclutter tool ($)
+#/// ---------------------------------------------------------
+
+#/// ------------- no-GUI (Menubar-only) ---------------------
+cask "macmediakeyforwarder"                              # Key forwarder
+cask "cheatsheet"                        # Command ⌘ shorcuts cheatsheet
+cask "soundflower"                            # Audio virtual controller
+cask "statusfy"                                    # Music status viever
+#/// ---------------------------------------------------------
+
+#/// ---------------- full window GUI ------------------------
+cask "stats"                                     # Menu bar system stats
+cask "clipy"                                         # Clipboard manager
+mas "Time Out", id: 402592703                           # Break reminder (✔)
+# mas "ToothFairy", id: 1191449274            # External devices manager ($)
+#<---- Agrupar   KarabinerE, K.E.V., B.T.T., K.M.>   en  /Keyboard Tools
+cask "karabiner-elements"                          # Keyboard customizer
+cask "bettertouchtool"                           # Input devices manager
+# cask "keyboard-maestro"                        # Input devices manager
+#<---- BORRA KARABINER CUANDO YA TENGAS TECLADOS VIA/QMK -----
+mas "Fenêtre Lite", id: 1288451627             # Picture-in-picture tool ($)
+mas "LyricsX", id: 1254743014                    # Live lyrics displayer
+#/// ---------------------------------------------------------
+
+#/// ------------------ Sys Enhancer/Helper Apps -----------------------
+cask "macs-fan-control"                                # Fans controller ($)
+# cask "switchresx"                          # External monitors manager ($)
+cask "appcleaner"                                      # App uninstaller
+# cask "drivedx",                  # Drive diagnostic/monitoring utility ($)
+# cask "Data Recovery Essential",                # Data recovery utility ($)
+# mas "DaisyDisk", id: 411643860                    # Disk analyzer tool ($)
+# cask "paragon-ntfs"                           # NTFS Filesystem Reader ($)
+# cask "peazip"                                        # File compressor
+# mas "Keka", id: 470158793          # File compressor, PeaZip is better
+# cask "tinker-tool"                           # macOS's Defaults editor
+cask "veracrypt"
+#<---- Agrupar <MalwareBytes>,<MB Privacy VPN>   en  "/MalwareBytes"
+
+#/// ---------------------- UserHelper Apps ----------------------------
+# cask "alfred"                                     # A better Spotlight ($)
+cask "balenaetcher"                          # Live Bootable ISO utility
+cask "handbrake"                                      # Media compressor
+cask "deluge"                                           # Torrent client
+cask "licecap"                                      # Record screen GIFs
+cask "qrencoder"                                       # QR Live Encoder
+# cask "qr"                                         # QR Live Encoder #2
+cask "vlc"                                                # Media player
+cask "iina"                                               # Media player
+#<---- Agrupar <Meta>, <Yate> y <kid3>   en  "/Music Taggers"
+# cask "meta"                                             # Music tagger ($)
+# cask "yate"                                             # Music tagger ($)
+cask "kid3"                                               # Music tagger
+# mas "MetaImage", id: 1397099749                      # Metadata Editor ($)
+# mas "Renamer 6", id: 1460229011                      # Metadata Editor ($)
+mas "ApolloOne - Photo Video Viewer", id: 1044484672 # PhotoVideo viewer
+mas "Spark", id: 1176895641                                # Mail client
+cask "padloc"                                         # Password manager
+cask "iterm2"                                        # Terminal emulator
+cask "cool-retro-term"                       # Vintage Terminal emulator
+cask "teamviewer"                                       # Remote desktop
+cask "anydesk"                                          # Remote desktop
+# cask "logi options +"
+# mas "Parallels Desktop", id: 1085114709          # Virtual Machine App ($)
+### Carpeta con las Win apps del VM de Parallels
+
+
+
+######################## 3RA PAGINA: Main Apps #########################
+#/// --------------------  ---------------------------
+cask "brave-browser"                          # Fast, but, at what cost?
+cask "firefox-developer-edition"              # Good, but slower as f*ck
+cask "firefox"                             # Not bad, but slower as f*ck
+cask "google-chrome"                 # Just for dev testing purposes 8-)
+cask "spotify"
+cask "steam"
+cask "minecraft"
+cask "discord"
+cask "signal"
+# cask "slack"
+cask "flume"                                          # Instagram client
+
+#/// --------------------------- Office --------------------------------
+## Word, PowerPoint, Excel, Outlook (delete OneDrive)
+mas "Microsoft Remote Desktop", id: 1295203466          # Remote desktop
+
+#/// --------------------- Adobe Creative Cloud ------------------------
+## Adobe Photoshop, Illustrator, After Effects, PremierePro, Lightroom -
+## Classic, Audition, InDesign, Bridge, Cinema4D, etc.
+
+## Mueve las siguientes carpetas hasta el final del Launchpad:
+## (Agrupa en "Creative Cloud": [Creative Cloud, DesktopApp, CloudHelper
+## Troubleshooter, Core Sync, CCXProcess], CCInstaller, AIPCBroker,
+## ACCFinderBundleLoader, CleanUpUtility, GCClient, LogTransport)
+## (Agrupa en "Cinema4D Apps": Rest of Cinema4D apps)
+
+#/// ---------------------- QuickLook Plugins --------------------------
+cask "qlcolorcode"
+cask "qlimagesize"
+cask "qlstephen"
+cask "qlvideo"
+cask "quicklook-csv"
+cask "quicklook-json"
+cask "qlmarkdown"                                   # Includes a GUI app
+# cask "rcdefaultapp"                                   #<---- Deprecado
+cask "swiftdefaultappsprefpane"
+
+
+
+######################## 4TA PAGINA: Dev Apps ##########################
+#/// ----------------- Code-Editors/IDE/Diffs Apps ---------------------
+cask "sublime-text"          # Based, Best and truly Sublime Text Editor
+cask "vscodium"                               # VSCode but OSS, so based
+cask "vscode"                        # Just to get their good extensions
+cask "macdown"                                    # Markdown text editor
+# cask "jetbrains-toolbox-fleet"                 # VSCode a-la JetBrains
+# cask "plistedit-pro"                              # .plist File editor ($)
+# mas "Xcode", id: 497799835              # Instalar hasta el final, IDE
+cask "jetbrains-toolbox"                  # Another installer a-la Adobe
+# cask "jetbrains-toolbox-intellij-idea"                   # For dev job ($)
+# cask "eclipse-installer"                                # Shitty IDE 1
+# cask "netbeans"                                         # Shitty IDE 2
+# cask "android-studio"                                   # Shitty IDE 3
+# cask "arduino"                                          # Shitty IDE 4
+# mas "Kaleidoscope", id 587512244                         # Diff editor ($)
+# mas "Kaleidoscope 3", id 1575557335          # Diff editor, macOS >=11 ($)
+# cask "diffchecker-pro"                                   # Diff editor ($)
+# cask "deltawalker"                                       # Diff editor
+
+#/// -------------------------- Git Apps -------------------------------
+cask "gitup"                            # Git client, best branch viewer
+cask "sublime-merge"                                        # Git client ($)
+cask "gitkraken"                                            # Git client ($)
+
+#/// ------------------------ Database Apps ----------------------------
+cask "dbngin"                         # Database version management tool
+# cask "sql-editor"                              # SQL database designer ($)
+# cask "jetbrains-toolbox-datagrip"  # Could replace the following ones:
+cask "sqldeveloper"    # Oracle forcing us to use only their tool, sadly
+cask "tableplus"                                             # DB client ($)
+cask "dbeaver"                                               # DB client
+cask "sequel-pro"                                         # MySQL client
+# cask "mongodb-compass-community"                      # MongoDB client
+
+#/// ------------------------- Server Apps -----------------------------
+cask "homebrew/cask/docker"
+# mas "Valentina Editor", id: 604825918
+cask "transmit"           #<--- Antes filezilla y cyberduck # FTP Client ($)
+cask "postman"                                             # REST client
+
+#/// ----------------------- Sketching Apps ----------------------------
+# cask "sketch"                                  # Vector graphic editor ($)
+# cask "glyphs"                             # Font vector graphic editor ($)
+# mas "Diagrams", id: 1276248849                        # Diagram editor ($)
+# cask "omnigraffle"                                    # Diagram editor ($)
+# cask "monodraw"                                         # ASCII editor ($)
+cask "yed"                                        # Graph/diagram editor
+# cask "fritzing"                     # Electronic design automation app
+cask "craftmanager"                          # Plugin manager for Sketch
+
+
+
+#/// -------------------------- Finally... -----------------------------
+mas "Xcode", id: 497799835                # Instalar hasta el final, IDE

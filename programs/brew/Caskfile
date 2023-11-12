@@ -1,0 +1,159 @@
+
+############################### GUI APPS ###############################
+
+######################## 1RA PAGINA: Core Apps #########################
+#### ------------------ Safari Extensions Folder -----------------------
+
+#### ---------------------- Old iLife Suite ----------------------------
+
+#### --------------------------- Other ---------------------------------
+
+#### -------------------- FINAL DE 1RA PAGINA --------------------------
+
+#### --------- iOffice Suite ---------------
+
+#### ------------- iPro --------------------
+
+#### ----------- Utilities -----------------
+
+
+
+######################## 2DA PAGINA: Main Apps #########################
+#### --------------------- MenuBar-only Apps ---------------------------
+cask "clipy"                                         # Clipboard manager
+### Agrupar <KarabinerE>,<K.E.V.>,<B.T.T.>,<K.M.> en "/Keyboard Tools"
+########### BORRA KARABINER CUANDO YA TENGAS TECLADOS VIA/QMK
+cask "karabiner-elements"                          # Keyboard customizer
+cask "bettertouchtool"                           # Input devices manager
+# cask "keyboard-maestro"                        # Input devices manager
+# cask "switchresx"                          # External monitors manager ($)
+# cask "vanilla"                                # Menubar unclutter tool ($)
+
+#### ---------------- Background-Only Apps (W/o GUI) -------------------
+# cask "catchmouse"                          # Switch screens with mouse
+cask "macmediakeyforwarder"                              # Key forwarder
+cask "statusfy"                                    # Music status viever
+cask "cheatsheet"                        # Command ⌘ shorcuts cheatsheet
+cask "soundflower"                            # Audio virtual controller
+# cask "MediaInfo" # github.com/sbarex/MediaInfo,      # Metadata viewer
+cask "macs-fan-control"                                # Fans controller ($)
+
+#### ----------------------- SysHelper Apps ----------------------------
+cask "appcleaner"                                      # App uninstaller
+# cask "drivedx",                  # Drive diagnostic/monitoring utility ($)
+# cask "Data Recovery Essential",                # Data recovery utility ($)
+# cask "paragon-ntfs"                           # NTFS Filesystem Reader ($)
+# cask "peazip"                                        # File compressor
+cask "veracrypt"
+# cask "alfred"                                     # A better Spotlight ($)
+### Agrupar <MalwareBytes>,<MB Privacy VPN> en "/MalwareBytes"
+# cask "tinker-tool"                           # macOS's Defaults editor
+cask "balenaetcher"                          # Live Bootable ISO utility
+cask "teamviewer"                                       # Remote desktop
+cask "anydesk"                                          # Remote desktop
+
+#### ---------------------- UserHelper Apps ----------------------------
+cask "handbrake"                                      # Media compressor
+cask "deluge"                                           # Torrent client
+cask "licecap"                                      # Record screen GIFs
+cask "qrencoder"                                       # QR Live Encoder
+# cask "qr"                                         # QR Live Encoder #2
+cask "vlc"                                                # Media player
+cask "iina"                                               # Media player
+### Agrupar <Meta>, <Yate> y <kid3> en "Music Taggers"
+# cask "meta"                                             # Music tagger ($)
+# cask "yate"                                             # Music tagger ($)
+cask "kid3"                                               # Music tagger
+cask "transmit"                                             # FTP Client ($)
+cask "padloc"                                         # Password manager
+cask "iterm2"                                        # Terminal emulator
+cask "cool-retro-term"                       # Vintage Terminal emulator
+
+#### -------------------- Entertainment Apps ---------------------------
+cask "brave-browser"                          # Fast, but, at what cost?
+cask "firefox-developer-edition"              # Good, but slower as f*ck
+cask "firefox"                             # Not bad, but slower as f*ck
+cask "google-chrome"                 # Just for dev testing purposes 8-)
+cask "spotify"
+cask "steam"
+cask "minecraft"
+cask "discord"
+cask "signal"
+cask "slack"
+cask "flume"                                          # Instagram client
+cask "keepingyouawake"
+# cask "logi options +"
+### Carpeta con las Win apps del VM de Parallels
+
+
+
+######################## 3RA PAGINA: Dev Apps ##########################
+#### ----------------- Code-Editors/IDE/Diffs Apps ---------------------
+cask "sublime-text"          # Based, Best and truly Sublime Text Editor
+cask "vscodium"                                       # VSCode but nicer
+cask "vscode"                        # Just to get their good extensions
+cask "macdown"                                    # Markdown text editor
+# cask "jetbrains-toolbox-fleet"                 # VSCode a-la JetBrains
+# cask "plistedit-pro"                              # .plist File editor ($)
+cask "jetbrains-toolbox"                  # Another installer a-la Adobe
+# cask "jetbrains-toolbox-intellij-idea"                   # For dev job ($)
+# cask "eclipse-installer"                                # Shitty IDE 1
+# cask "netbeans"                                         # Shitty IDE 2
+# cask "android-studio"                                   # Shitty IDE 3
+# cask "arduino"                                          # Shitty IDE 4
+# cask "diffchecker-pro"                                   # Diff editor ($)
+# cask "deltawalker"                                       # Diff editor
+
+#### -------------------------- Git Apps -------------------------------
+cask "gitup"                            # Git client, best branch viewer
+cask "sublime-merge"                                        # Git client ($)
+cask "gitkraken"                                            # Git client ($)
+
+#### ------------------------ Database Apps ----------------------------
+cask "dbngin"                         # Database version management tool
+# cask "sql-editor"                              # SQL database designer ($)
+# cask "jetbrains-toolbox-datagrip"  # Could replace the following ones:
+cask "sqldeveloper"    # Oracle forcing us to use only their tool, sadly
+cask "tableplus"                                             # DB client ($)
+cask "dbeaver"                                               # DB client
+cask "sequel-pro"                                         # MySQL client
+# cask "mongodb-compass-community"                      # MongoDB client
+
+#### ------------------------- Server Apps -----------------------------
+cask "homebrew/cask/docker"
+# cask "filezilla" # dejarlo en Downloads,antes cyberduck
+cask "postman"                                             # REST client
+
+#### ----------------------- Sketching Apps ----------------------------
+# cask "sketch"                                  # Vector graphic editor ($)
+# cask "monodraw"                                         # ASCII editor ($)
+cask "yed"                                        # Graph/diagram editor
+# cask "fritzing"                     # Electronic design automation app
+cask "craftmanager"                          # Plugin manager for Sketch
+
+#### --------------------- Adobe Creative Cloud ------------------------
+## Adobe Photoshop, Illustrator, After Effects, PremierePro, Lightroom -
+## Classic, Audition, InDesign, Bridge, Cinema4D, etc.
+
+#### --------------------------- Office --------------------------------
+## Word, PowerPoint, Excel (delete OneDrive)
+
+#### ---------------------- QuickLook Plugins --------------------------
+cask "qlcolorcode"
+cask "qlimagesize"
+cask "qlstephen"
+cask "qlvideo"
+cask "quicklook-csv"
+cask "quicklook-json"
+cask "qlmarkdown"                                   # Includes a GUI app
+# cask "rcdefaultapp"           ## Deprecated
+cask "swiftdefaultappsprefpane"
+cask "captin"                                       # Caps Lock notifier
+
+#### -------------------------- Finally... -----------------------------
+## Mueve las siguientes carpetas hasta el final del Launchpad:
+## (Agrupa en "Creative Cloud": [Creative Cloud, DesktopApp, CloudHelper
+## Troubleshooter, Core Sync, CCXProcess], CCInstaller, AIPCBroker,
+## ACCFinderBundleLoader, CleanUpUtility, GCClient, LogTransport)
+## (Agrupa en "Cinema4D Apps": Rest of Cinema4D apps)
+

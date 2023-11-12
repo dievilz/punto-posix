@@ -1,0 +1,83 @@
+
+############################### GUI APPS ###############################
+
+######################## 1RA PAGINA: Core Apps #########################
+#### ------------------ Safari Extensions Folder -----------------------
+## Agrupar <Safari>, <Extensiones de Safari (macOS 11)> en la carpeta
+## "Safari"
+
+#### ---------------------- Old iLife Suite ----------------------------
+## Hacer carpeta "iLife" y agrupar ahí todo lo siguiente:
+mas "iMovie", id: 408981434 #
+# mas "iPhotos", id:          # Replaced by Photos
+# mas "Garage Band", id:      # Not anymore :(
+
+#### ------------------------- Utilities -------------------------------
+## Mover desde <QuickTime Player> (<TextEdit>,<TimeMachine>,<FontBook>,
+## <Chess>,<Stickies>,<ImageCapture>) hasta <Automator>/<DVD Player> a
+## la carpeta "Other" y poner antes de Grapher. Al finalizar, renombrar
+## a "Utilities"
+
+#### ----------------------- iOffice Suite -----------------------------
+## Despues de <Voice Memos>, poner lo siguiente:
+mas "Pages", id: 409201541
+mas "Numbers", id: 409203825
+mas "Keynote", id: 409183694
+
+#### --------------------------- iPro ----------------------------------
+# mas "Final Cut Pro", id: 424389933                                   # (x)
+# mas "Compressor", id: 424390742
+# mas "Logic Pro", id: 634148309
+# mas "Motion", id: 434290957
+
+
+
+######################## 2DA PAGINA: Main Apps #########################
+#### --------------------- MenuBar-only Apps ---------------------------
+mas "Magnet", id: 441258766                             # Window manager
+# mas "ToothFairy", id: 1191449274            # External devices manager (x)
+mas "LyricsX", id: 1254743014                    # Live lyrics displayer
+mas "Time Out", id: 402592703                           # Break reminder
+
+#### ---------------- Background-Only Apps (W/o GUI) -------------------
+mas "Fenêtre Lite", id: 1288451627             # Picture-in-picture tool
+
+#### ----------------------- SysHelper Apps ----------------------------
+# mas "DaisyDisk", id: 411643860                    # Disk analyzer tool (x)
+# mas "Keka", id: 470158793          # File compressor, PeaZip is better
+
+#### ---------------------- UserHelper Apps ----------------------------
+# mas "MetaImage", id: 1397099749                      # Metadata Editor (x)
+# mas "Renamer 6", id: 1460229011                      # Metadata Editor (x)
+mas "ApolloOne - Photo Video Viewer", id: 1044484672 # PhotoVideo viewer
+mas "Spark", id: 1176895641                                # Mail client
+
+#### -------------------- Entertainment Apps ---------------------------
+# mas "Parallels Desktop", id: 1085114709          # Virtual Machine App (x)
+### Carpeta con las Win apps del VM de Parallels
+
+
+
+######################## 3RA PAGINA: Dev Apps ##########################
+#### ----------------- Code-Editors/IDE/Diffs Apps ---------------------
+# mas "Xcode", id: 497799835              # Instalar hasta el final, IDE
+# mas "Kaleidoscope", id 587512244                         # Diff editor (x)
+# mas "Kaleidoscope 3", id 1575557335          # Diff editor, macOS >=11 (x)
+
+#### -------------------------- Git Apps -------------------------------
+
+#### ------------------------ Database Apps ----------------------------
+
+#### ------------------------- Server Apps -----------------------------
+# mas "Valentina Editor", id: 604825918
+
+#### ----------------------- Sketching Apps ----------------------------
+# mas "Diagrams", id: 1276248849                        # Diagram editor (x)
+
+#### --------------------- Adobe Creative Cloud ------------------------
+
+#### --------------------------- Office --------------------------------
+
+#### ---------------------- QuickLook Plugins --------------------------
+
+#### -------------------------- Finally... -----------------------------

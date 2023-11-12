@@ -30,7 +30,11 @@ Sección pendiente...
 
 
 ## Por Hacer
-- [ ] Dentro de _[TODO.md](https://github.com/dievilz/punto.sh/blob/master/TODO.md)_
+- [ ] Dentro de _[TODO.md](TODO.md)_
+
+
+## ¿Quieres Contribuir?
+- [ ] Ve las pautas en _[CONTRIBUTING.md](CONTRIBUTING.md)_
 
 
 ## Honor a quien honor merece
